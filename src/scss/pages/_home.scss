@@ -1,0 +1,9 @@
+/* home */
+@use "../abstracts/variables" as var;
+@use "../base/typography" as type;
+@use "../components/header";
+
+body {
+  font-family: type.$font;
+  background-color: var.$bg-very-light;
+}

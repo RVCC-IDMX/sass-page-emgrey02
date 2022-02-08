@@ -1,0 +1,37 @@
+/* header */
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins";
+@use "../base/typography" as type;
+
+.header {
+  @include mixins.flex-column();
+  @include mixins.flex-center();
+  flex-wrap: wrap;
+  padding-top: 2rem;
+
+  &__title {
+    color: var.$primary-very-dark;
+    font-weight: type.$display-weight;
+    font-size: type.$display-title-size;
+    letter-spacing: type.$display-spacing;
+    text-align: center;
+  }
+
+  &__img {
+    max-width: 100%;
+  }
+
+  &__desc {
+    max-width: 55ch;
+    margin-bottom: 1rem;
+    font-size: type.$body-font-size;
+    font-weight: type.$body-font-weight;
+    padding: 0rem 5vw;
+
+    &--first {
+      font-style: italic;
+      font-weight: type.$body-italic-weight;
+      letter-spacing: 0.15em;
+    }
+  }
+}
