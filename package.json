@@ -1,0 +1,20 @@
+{
+  "name": "sass-page-emgrey02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/sass-page-emgrey02.git"
+  },
+  "keywords": [],
+  "author": "Emma Grey <emgrey02@gmail.com> (https://github.com/emgrey02)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/sass-page-emgrey02/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/sass-page-emgrey02#readme"
+}
