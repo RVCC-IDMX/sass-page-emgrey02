@@ -1,6 +1,6 @@
 /* header */
-@use "../abstracts/variables" as var;
-@use "../abstracts/mixins";
+@use "../utilities/variables" as var;
+@use "../utilities/mixins";
 @use "../base/typography" as type;
 
 .header {
